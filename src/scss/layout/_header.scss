@@ -1,25 +1,55 @@
-nav {
-  width: 37px;
-  height: 37px;
-  background-color: #76b63b;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.fa-solid {
-  font-weight: 900;
-  width: 13px;
-  height: 13px;
-  color: white;
-}
-
 .header{ 
   background: url('/images/cover.jpeg') center/cover no-repeat;
-  height: 100vh;      
+    &__menu{
+      width: 37px;
+      height: 37px;
+      background-color: #76b63b;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+  }
 }
 
-.fa-circle-chevron-down  {
-  color: #ffffff;
-  font-size: 38px;
+.hero{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 90vh; 
+
+    &__ico{
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background-color: $white-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &__title{
+      font-family: $primary-font;
+      font-size: 1.875em;
+      color: $white-color;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      line-height: 1.6em;
+      padding-bottom: 21px;
+    }
+    &__subtitle{
+      font-family: $secondary-font;
+      font-size: 1em;
+      color: $white-color;
+      width: 70%;
+      text-align: center;
+      padding-bottom: 15px;
+
+
+    }
+
 }
+
+/*roboto regular para textos weight:400 */
+/*roboto medium para texto botones weight:500*/
+/*roboto slab para titulares weight: 700*/
+

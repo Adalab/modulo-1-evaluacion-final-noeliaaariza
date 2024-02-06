@@ -15,7 +15,18 @@
             align-items: center;
             transform: translateY(-50%);
             box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            animation-name: animation-ico-arrow;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
         }
+            @keyframes animation-ico-arrow {
+                from {
+                    background-color: $white-color;
+                }
+                to {
+                    background-color: #4a602d;   
+                }
+            }
         
         a{
             display: block;
@@ -55,3 +66,5 @@
             padding-bottom: 35px;
         }
 }
+
+

@@ -1,5 +1,7 @@
 .header{ 
   background: url('/images/cover.jpeg') center/cover no-repeat;
+  background-position: 75% 75%;
+  
     &__menu{
       width: 37px;
       height: 37px;
@@ -7,7 +9,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      position: fixed;
+      position: fixed;      
   }
 }
 

@@ -32,6 +32,16 @@
     flex-direction: column-reverse;
     align-items: center;
     padding: 20px 0 50px 0;
+    @media all and (min-width: 768px) {
+        width: 100%;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0;
+            &__one, &__two, &__three{
+                width: 33%
+            }
+    }
         p{
             font-family: $secondary-font;
             font-size: 0.9em;

@@ -6,6 +6,9 @@
         font-size: 0.875em;
         color: $primary-color;
         padding-bottom: 10px;
+        @media all and (min-width: 768px) {
+            font-size: 1em;
+        }
 
 
     }
@@ -14,6 +17,10 @@
         font-size: 1.375em;
         color: $black-color;
         padding-bottom: 20px;
+        @media all and (min-width: 768px) {
+            font-size: 2em;
+            padding-bottom: 15px;
+        }
         
     }
     &__content{
@@ -23,6 +30,10 @@
         color: $third-color;
         line-height: 1.6em;
         padding-bottom: 50px;
+        @media all and (min-width: 768px) {
+            padding-bottom: 30px;
+            font-size: 1.25em;
+        }
 
     }
 }

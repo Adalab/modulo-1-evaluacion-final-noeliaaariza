@@ -6,6 +6,9 @@
     align-items: center;
     padding: 20px 0 40px 0;
     margin-top: 30px;
+    @media all and (min-width: 768px) {
+        padding-bottom: 50px;
+    }
 
     &__content{
         display: grid;
@@ -13,17 +16,31 @@
         grid-row-gap: 1.25em;
         padding-top: 20px;
         padding-bottom: 15px;
+        @media all and (min-width: 768px) {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-column-gap: 5em;
+            padding-bottom: 30px;
+        }
     }
 
     &__title{
         font-family: $primary-font;
         font-size: 0.75em;
         color: $third-color;
+        @media all and (min-width: 768px) {
+            padding-bottom: 15px;
+        }
+
     }
     &__subtitle{
         font-family: $primary-font;
         font-size: 1.25em;
         color: $black-color;
+        @media all and (min-width: 768px) {
+            font-size: 1.75em;
+            padding-bottom: 20px;
+        }
+
     }
 
 }
@@ -42,6 +59,9 @@
         font-size: 0.875em;
         color: $black-color;
         padding-top: 5px;
+        @media all and (min-width: 768px) {
+            font-size: 1.125em;
+        }
 
     }
 }

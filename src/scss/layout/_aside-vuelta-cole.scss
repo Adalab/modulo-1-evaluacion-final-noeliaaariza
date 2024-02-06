@@ -21,6 +21,9 @@
             grid-column-gap: 5em;
             padding-bottom: 30px;
         }
+        @media all and (min-width: 1024px) {
+            grid-column-gap: 15em;
+        }
     }
 
     &__title{

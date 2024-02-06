@@ -31,7 +31,14 @@
 
 ###
 
-<p align="left">In this repository, you will find the exercise completed for the first part of the module.</p>
+<p align="left">In this repository, you will find the exercise completed for the first part of the module.
+</p>
+
+<h3>Bonus included:</h3>
+- Transform and transition property on *Comprar* and *Empezar ahora* buttons.
+- Animation added on arrow button on footer.
+- Branch created for making animation buttons tests.
+- Readme created.
 
 ###
 

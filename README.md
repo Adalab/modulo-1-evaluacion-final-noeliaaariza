@@ -35,10 +35,10 @@
 </p>
 
 <h3>Bonus included:</h3>
-- Transform and transition property on *Comprar* and *Empezar ahora* buttons.
-- Animation added on arrow button on footer.
-- Branch created for making animation buttons tests.
-- Readme created.
+<p align="left">- Transform and transition property on *Comprar* and *Empezar ahora* buttons.<br>
+- Animation added on arrow button on footer.<br>
+- Branch created for making animation buttons tests.<br>
+- Readme created.<br></p>
 
 ###
 

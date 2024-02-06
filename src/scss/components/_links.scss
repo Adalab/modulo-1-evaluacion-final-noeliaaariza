@@ -6,6 +6,81 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: translate3d(0px, 0%, 0px);
+    transition-delay: .6s;
+    overflow: hidden;
+        &:before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #3ad2d0;
+            border-radius: 50% 50% 0 0;
+            transform: translateY(100%) scaleY(.5);
+            transition: all .6s ease;
+        }
+        &:after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: $primary-color;
+            border-radius: 0;
+            transform: translateY(0) scaleY(1);
+            transition: all .6s ease;
+        }
+        &__div{
+        position: relative;
+        top: 16px;
+        width: 100%;
+        height: 26px;
+        overflow: hidden;
+            &__span1{
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            width: 100%;
+            text-align: center;
+            transition: transform .5s ease;
+                &:first-child{
+                color: rgb(217, 15, 15);
+                transform: translateY(24px);
+                }
+                &:last-child{
+                color: #1E0F21;
+                transform: translateY(0);
+                }   
+         }
+       &:hover{
+            background: #3ad2d0;    
+            transition: background .2s linear;
+            transition-delay: .6s;
+        }
+         &:after{
+           border-radius: 0 0 50% 50%; 
+           transform: translateY(-100%) scaleY(.5);
+           transition-delay: 0;
+        }
+         &:before{
+           border-radius: 0;
+           transform: translateY(0) scaleY(1);
+           transition-delay: 0;
+        }
+         &__span2{
+           &:first-child{
+             transform: translateY(0);
+            }
+           &:last-child{
+             transform: translateY(-24px);     
+            }  
+        }
+        }
+
+
         &__white{
             width: 160px;
             height: 55px;

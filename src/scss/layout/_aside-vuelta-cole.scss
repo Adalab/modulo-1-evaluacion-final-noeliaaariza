@@ -1,0 +1,47 @@
+.vueltaCole{
+    background-color: $secondary-color;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 40px 0;
+    margin-top: 30px;
+
+    &__content{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 1.25em;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    &__title{
+        font-family: $primary-font;
+        font-size: 0.75em;
+        color: $third-color;
+    }
+    &__subtitle{
+        font-family: $primary-font;
+        font-size: 1.25em;
+        color: $black-color;
+    }
+
+}
+
+.banner{
+    &__images{
+    width: 114px;
+    height: 124px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    &__p{
+        font-family: $primary-font;
+        font-size: 0.875em;
+        color: $black-color;
+        padding-top: 5px;
+
+    }
+}
